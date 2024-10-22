@@ -1,0 +1,22 @@
+SCIENTIFIC COMPUTATION PROJECT - SIMON RIOU & CLEMENT MELKIOR
+
+Folder Organization:
+
+	•	The perceptron.m file contains the code for a single-layer perceptron, trained and tested on the DataSimulation dataset.
+	•	The digit.m file contains the code for binary classification of two digits.
+	•	The monocouche.m file contains the code for “1 vs all” classification of digits.
+
+Binary Classification Functionality:
+
+	•	To choose the two digits for classification, modify line 4 of the digit.m file.
+
+Single-Layer Network Functionality:
+
+	•	When the program starts, the interactive menu allows you to choose between training or testing the network.
+	•	To select the number of digits and which digits to classify, modify the list on line 5 of the monocouche.m file.
+	•	Make sure to run the test after training on the correct number of digits.
+	•	The test displays the confusion matrix of the network.
+
+Remaining Tasks:
+
+	•	Implement a network with a hidden layer.
