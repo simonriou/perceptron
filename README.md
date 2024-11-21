@@ -45,7 +45,7 @@ The training process will involve the following steps:
 - Evaluate the model by generating a confusion matrix.
 
 ### Monocouche usage
-The `monocouche.m` script starts up a menu in which you can choose whether you want to train the model or test in using validation data. After training, the weights of the model are saved in a separate file, and loaded upon testing. So make sure that you are testing the model with the right weights saved! If you are unsure, re-train the model and then test it.
+The `monocouche.m` script starts up a menu in which you can choose whether you want to train the model or test it using validation data. After training, the weights of the model are saved in a separate file, and loaded upon testing. So make sure that you are testing the model with the right weights saved! If you are unsure, re-train the model and then test it.
 
 ## Example
 
